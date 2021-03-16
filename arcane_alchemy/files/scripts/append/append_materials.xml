@@ -1284,6 +1284,44 @@
 			</Ingestion>
     </StatusEffects>
   </CellData>
+  
+  <CellData 
+	name="AA_GLUE"
+	ui_name="Omega glue"
+  	tags="[corrodible],[meltable_to_lava],[alchemy],[magic_liquid],[impure]"
+	burnable="0"  
+	density="0.01"  
+	cell_type="liquid" 
+	wang_color="885a9917"  
+	generates_smoke="0"  
+	liquid_gravity="0.1"  
+	liquid_sand="0"  
+	liquid_sticks_to_ceiling="40"
+	liquid_stains="2"
+	stickyness="0.0"
+	solid_friction="1.0"
+	on_fire="0"  
+	gfx_glow="200"
+	liquid_sprite_stain_shaken_drop_chance="15"
+	status_effects="GLUED"
+	requires_oxygen="0"  
+	temperature_of_fire="10" 
+	audio_physics_material_event="slime"
+	audio_physics_material_wall="slime"
+	audio_physics_material_solid="slime" 
+	show_in_creative_mode="1"
+	>
+    <Graphics 
+		texture_file="mods/arcane_alchemy/files/gfx/materials/glue.png"
+		color="60FEFFD1"
+		>
+    </Graphics>
+	<StatusEffects>
+			<Ingestion>
+			<StatusEffect type="GLUED" amount="0.15" />
+			</Ingestion>
+    </StatusEffects>
+  </CellData>
 <!--
   <CellData
 	name="AA_MAT_CONVERTED_SAND"

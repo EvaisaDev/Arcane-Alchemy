@@ -6,6 +6,7 @@ table.insert(materials_magic, {
 table.insert(materials_magic, {
     material="AA_MAT_HITSELF",
     cost=500,
+	percentage=0.5
 });
 
 table.insert(materials_magic, {
@@ -21,6 +22,7 @@ table.insert(materials_magic, {
 table.insert(materials_magic, {
     material="AA_MAT_REPULTIUM",
     cost=500,
+	percentage=0.5
 });
 
 table.insert(materials_magic, {
@@ -51,23 +53,30 @@ table.insert(materials_magic, {
 table.insert(materials_magic, {
     material="AA_LIQUID_SPELL",
     cost=500,
-    percentage=3
+    percentage=0.5
 });
 
 table.insert(materials_magic, {
     material="AA_UNSTABLE_LIQUID_SPELL",
     cost=500,
-    percentage=0.4
+    percentage=0.2
 });
 
 table.insert(materials_magic, {
     material="AA_LIQUID_ROCK",
     cost=500,
+	percentage=0.5
 });
 
 table.insert(materials_magic, {
     material="AA_MAT_STATIC_CHARGE",
     cost=500,
+});
+
+table.insert(materials_magic, {
+    material="AA_GLUE",
+    cost=500,
+	percentage=0.5
 });
 
 local old_init = init
