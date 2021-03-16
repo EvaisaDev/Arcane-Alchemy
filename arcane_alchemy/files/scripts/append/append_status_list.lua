@@ -114,3 +114,12 @@ table.insert(status_effects, {
 	protects_from_fire=false,
 	effect_entity="mods/arcane_alchemy/files/entities/effects/polymorph_test.xml",
 });
+
+table.insert(status_effects, {
+	id="GLUED",
+	ui_name="Glued",
+	ui_description="you feel extremely sticky",
+	ui_icon="mods/arcane_alchemy/files/gfx/ui/glued.png",
+	protects_from_fire=false,
+	effect_entity="mods/arcane_alchemy/files/entities/effects/custom_glue/glue_shot.xml",
+});
